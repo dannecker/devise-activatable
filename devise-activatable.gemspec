@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ["Leonid Stoianov"]
   spec.email         = ["leo@phar.com.ua"]
-  spec.description   = %q{}
+  spec.summary       = %q{Activatable plugin for Devise. Adds SMS and Voice activation option}
   spec.homepage      = "https://github.com/dannecker/devise-activatable"
   spec.license       = "MIT"
 
@@ -17,7 +17,6 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
-
 
   spec.add_dependency "devise",                         ">= 4.0.0", "< 4.2.0"
 
