@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "devise",                         ">= 4.0.0", "< 4.2.0"
+  spec.add_dependency "devise",                         "> 3.5.2", "< 4.2.0"
 
   spec.add_development_dependency "rails",              "~> 4.2"
   spec.add_development_dependency "rspec-rails",        "~> 3.0"
